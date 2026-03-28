@@ -374,9 +374,9 @@ body {
 
 .cta-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
     gap: 1.875rem;
-    max-width: 56.25rem;
+    max-width: 68.75rem;
     margin: 0 auto;
     overflow-wrap: break-word;
 }
@@ -445,6 +445,34 @@ body {
     width: 40px;
     height: 40px;
     color: #ffffff;
+}
+
+/* Card Variations */
+.cta-card-primary .cta-icon {
+    background: rgba(10, 49, 97, 0.4);
+    box-shadow: 0 0 20px rgba(10, 49, 97, 0.2);
+}
+
+.cta-card-secondary .cta-icon {
+    background: rgba(100, 150, 200, 0.4);
+    box-shadow: 0 0 20px rgba(100, 150, 200, 0.2);
+}
+
+.cta-card-accent .cta-icon {
+    background: rgba(50, 150, 255, 0.4);
+    box-shadow: 0 0 20px rgba(50, 150, 255, 0.2);
+}
+
+.cta-card-primary:hover {
+    border-color: rgba(10, 49, 97, 0.4);
+}
+
+.cta-card-secondary:hover {
+    border-color: rgba(100, 150, 200, 0.4);
+}
+
+.cta-card-accent:hover {
+    border-color: rgba(50, 150, 255, 0.4);
 }
 
 .cta-title-text {

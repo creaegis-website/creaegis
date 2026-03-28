@@ -134,6 +134,25 @@ const Home = () => {
                   </div>
                 </div>
               </Link>
+
+              <Link to="/creaegis-transformations-fund-trust" className="cta-card cta-card-accent">
+                <div className="cta-card-inner">
+                  <div className="cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                      <path d="M2 17l10 5 10-5"/>
+                      <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                  </div>
+                  <h3 className="cta-title-text">Transformations Fund</h3>
+                  <p className="cta-description">Category III Alternative Investment Fund</p>
+                  <div className="cta-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
         </main>
